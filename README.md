@@ -1,0 +1,2 @@
+## SnapMatch online documentation
+Here you will find the documentation for the SnapMatch project. This project is a web application that allows users to upload images and find similar images in a database.
