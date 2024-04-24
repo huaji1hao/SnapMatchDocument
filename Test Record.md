@@ -1,6 +1,6 @@
 # Testing Summary
 
-## Unit Testing
+## Integration Testing
 
 | Test ID | Description                                                                 | Module         | Status | Comments                                                           |
 | ------- | --------------------------------------------------------------------------- | -------------- | ------ | ------------------------------------------------------------------ |
@@ -16,16 +16,9 @@
 | ST-001  | Tests the identifyObjectInPhoto endpoint to see if it gives of the objects in the photo | Upload Challenges & Response | Pass   | Check if certain values are present in the 'data' array      |
 | ST-002  | Tests the uploadChallenge endpoint to see if the image gets uploaded                    | Upload Challenges            | Pass   | Check if the request was successful (i.e. status_code = 200) |
 
-## Integration Testing
+## Alpha/Beta Testing
 
-| Test ID | Description                                  | Components Integrated | Status | Comments     |
-| ------- | -------------------------------------------- | --------------------- | ------ | ------------ |
-| IT-001  | Test integration User Interface and Database | UI/DB                 | Pass   |              |
-| IT-002  | Test integration of Payment Gateway          | Payment/Network       | Fail   | See bug #124 |
-
-# Alpha/Beta Testing
-
-| Test ID | Scenario                                       | Expected Outcome        | Actual Outcome        | Status | Comments     |
-| ------- | ---------------------------------------------- | ----------------------- | --------------------- | ------ | ------------ |
-| AB-001  | User can complete a purchase using credit card | Transaction completes   | Transaction completes | Pass   |              |
-| AB-002  | User receives error message for expired card   | Error message displayed | Incorrect error shown | Fail   | See bug #125 |
+| Test ID | Scenario                       | Expected Outcome  | Actual Outcome                                         | Status | Comments |
+| ------- | ------------------------------ | ----------------- | ------------------------------------------------------ | ------ | -------- |
+| AB-001  | Ask friend Emma to use our app | few bugs to fixed | We fix the bug and she get a high score in leaderboard | Pass   |          |
+|         |                                |                   |                                                        |        |          |
